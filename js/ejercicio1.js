@@ -3,15 +3,15 @@ function rectangulo(altura, ancho) {
     return altura * ancho;
 }
 
-let area = rectangulo(5,10);
+let area = rectangulo(5, 10);
 console.log(area)
 
 //ejercicio 2//
-function triangulo(base,altura) {
+function triangulo(base, altura) {
     return (base * altura) / 2;
 }
 
-let area1 = triangulo(10,20)
+let area1 = triangulo(10, 20)
 console.log(area1)
 
 //Ejercicio 3//
@@ -32,7 +32,7 @@ console.log(letras)
 //Ejercicio 5//
 function miFuncion(numero) {
     // Hacer algo con el número, por ejemplo, imprimirlo
-    console.log(numero/1020);
+    console.log(numero / 1020);
 }
 
 // Llamando a la función con un número como argumento
@@ -45,8 +45,8 @@ function precioFinal(numero) {
 precioFinal(100)
 
 //Ejercicio 7//
-function mitad(numero) { 
-    console.log(numero/2);
+function mitad(numero) {
+    console.log(numero / 2);
 }
 mitad(4)
 
